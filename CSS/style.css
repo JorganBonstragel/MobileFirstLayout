@@ -1,0 +1,134 @@
+/* -----Base Styles---- */
+*{
+    font-family: 'Roboto', Arial;
+}
+
+body{
+    margin:10px;
+    text-align: center;
+}
+
+section{
+    text-align: center;
+    margin-bottom:6em;
+}
+
+footer{
+    border-top:2px solid silver;
+}
+/*-------------------------------text------*/
+h1{
+    font-weight: 500;
+}
+
+p{
+    font-family: 'Open Sans';
+    max-width: 300px;
+    margin:0 auto;
+}
+
+/*------------------------------anchors----*/
+a{
+    font-weight: bold;
+    color:black;
+    text-decoration:none;
+}
+
+a:hover{
+    color:#e48c62;
+}
+
+/*-------------------------------lists-----*/
+ul{
+    text-decoration:none;
+    list-style-type:none;
+    padding-left:0;
+}
+
+li{
+    padding-bottom:1.5em;
+}
+
+/* ----------------------------Class Styles------- */
+.card{
+ margin-bottom:2em;
+} 
+
+.card p{
+    text-align:center;
+    
+}
+
+.name{
+    float:left;
+}
+
+.top{
+    float:right;
+}
+
+/*-----------------------------img classes------------*/
+.profile-img{
+    max-width: 70%;
+    padding-bottom:1em;
+}
+.port-img{
+    max-width: 99%;
+    margin:3em 0 .2em 0;
+}
+
+/*-----------------------------Media Query (768px)--------------*/
+@media(min-width:768px){
+p{
+        max-width: 750px;
+}
+
+
+/*----------------------------Class Styles--------------*/    
+.nav-bar li{
+    display:inline-block;
+    padding-right:1em;
+}
+
+.nav-bar li:last-child{
+    padding-right:0em;
+}    
+.intro p{
+    text-align: left;
+}
+.profile-img{
+    float:right;
+    padding-left:15px;
+}
+.port{
+    margin-bottom:2em;
+}
+.contact{
+    margin:0 auto 4em;
+    max-width: 600px;
+
+}
+
+/*---cards---*/
+.card{
+    max-width: 350px;
+    
+}
+
+.card:nth-child(1n+1){
+    float:right;
+    margin-right:1.5em;
+}
+
+.port-img{
+    margin:0;
+}
+
+/*-------------------------Clear Fix--------------------*/
+.clear-fix{
+clear:both;
+content: "";
+display:table;
+}
+
+}
