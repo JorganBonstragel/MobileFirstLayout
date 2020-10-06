@@ -114,3 +114,38 @@ p{
 }
 
 }
+
+/*----------------------Media Query------------------*/
+@media(min-width:1024px){
+
+p{
+    font-size: 20px;
+}
+  
+.nav-wrapper h1{
+    float:left;
+    padding-left: 15px;
+}
+.nav-wrapper ul{
+    float:right;
+    padding-right:15px;
+}
+.intro{
+    padding:0 15px 0 15px;
+    margin-bottom: 5em;
+    margin-top:3em;
+}
+
+.profile-img{
+    max-width: 150%;
+}
+.gallery{
+    margin-top:3em;
+}
+    .card{
+    max-width: 300px;
+}
+.contact{
+    max-width: 700px;
+}
+}
