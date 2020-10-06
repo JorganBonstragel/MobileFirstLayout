@@ -4,17 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Responsive Layout</title>
-    <link rel="stylesheet" href="CSS/style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100:200:300;400;500&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="CSS/style-mk2.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> 
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet"> 
 </head>
-<body>
-    <nav>
+<body class="clear-fix">
+    <nav class=nav-wrapper>
         <h1>Chris Sampson</h1>
         <ul class="nav-bar">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Portfolio</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#gallery">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
         </ul>
     </nav>
 
@@ -23,8 +23,10 @@
         <p>Hi! I'm a front-end developer who loves resposive design and css. I recently finish a degree in front-end development at Treehouse and am excited to put all my skills to use!</p>
     </section>
     
-    <section class='gallery clear-fix'>
-        <h2 class="port">Portfolio</h2>
+    <h2 class="port">Portfolio</h2>
+
+    <section id="gallery" class='gallery'>
+        
         <div class="card">
             <img src="images/portfolio-1.png" alt="Portfolio Image 1" class="port-img">
             <h2>Marketing Page</h2>
@@ -62,21 +64,30 @@
         </div> 
     </section>
 
-    <section class="contact">
+    <section id="contact" class="contact">
         <h2>Contact</h2>
-        <p>If you're interested in cahtting or want more information about what I've been working on, I'd love to hear from you!</p><br>
+        <p>If you're interested in chatting or want more information about what I've been working on, I'd love to hear from you!</p><br>
         <p>Phone: <strong>+1(111) 555-1234</strong></p><br>
         <p>Email: <strong>email@yoursite.com</strong></p>
     </section>
 
     <footer>
         <div class="name">
-            <h3>Chris Sampson</h3>
+            <h4>Chris Sampson</h4>
         </div>
 
         <div class="top">
-        <h3><a href="#">Back To Top</a></h3>
+        <h4><a href="index.html">Back To Top</a></h4>
         </div>
+
+        <nav class="bot-nav">
+            <ul class="nav-bar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#gallery">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+
     </footer>
 
 </body>
