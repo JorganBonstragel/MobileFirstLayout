@@ -149,6 +149,9 @@ p{
 .bot-nav{
     padding-top: 1em;
 }
+.padding{
+    padding:15px;
+}
 /*-------------------------Clear Fix--------------------*/
 .clear-fix{
     clear:both;
@@ -166,13 +169,13 @@ p{
 }
 .nav-wrapper h1{
     float:left;
-    padding-left: 15px;
+    padding-left: 20px;
 
     
 }
 .nav-wrapper ul{
     float:right;
-    padding-right:15px;
+    padding-right:20px;
     
 }
 .intro{
@@ -197,14 +200,5 @@ p{
     text-align: left;
     max-width: 750px;
 }
-}
-/*------------------------------------------------*/
-@media(min-width:1230px){
-    .card{
-        max-width: 400px;
-    }
-    .profile-img{
-        max-width: 200%;
-        
-    }
+
 }
